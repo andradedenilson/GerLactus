@@ -1,0 +1,27 @@
+<RoomStays>
+          <RoomStay>
+                    <RoomRates>
+                              <RoomRate NumberOfUnits="1" RatePlanCode="XXX1" RoomTypeCode="YYY2">
+                                        <Rates>
+                                                  <Rate EffectiveDate="2013-05-22" ExpireDate="2013-05-23" RateTimeUnit="Day" UnitMultiplier="1">
+                                                            <Base AmountAfterTax="140.00" CurrencyCode="USD"/>
+                                                  </Rate>
+                                                  <Rate EffectiveDate="2013-05-23" ExpireDate="2013-05-24" RateTimeUnit="Day" UnitMultiplier="1">
+                                                            <Base AmountAfterTax="120.00" CurrencyCode="USD"/>
+                                                  </Rate>
+                                        </Rates>
+                              </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                              <GuestCount Age="1" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2013-05-24" Start="2013-05-22"/>
+                    <Total AmountAfterTax="280.00" CurrencyCode="USD"/>
+                    <BasicPropertyInfo CompanyCode="XXX"/>
+                    <Comments>
+                              <Comment>
+                                        <Text>This is a test comment !@ $%^&*()123</Text>
+                              </Comment>
+                    </Comments>
+          </RoomStay>
+</RoomStays>
